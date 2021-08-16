@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import sprite_footer_02 from '@/assets/img/sprite_footer_02.png';
 export const AppFooterWrapper = styled.div`
   height: 172px;
   background-color: #f2f2f2;
@@ -11,7 +11,7 @@ export const AppFooterWrapper = styled.div`
     justify-content: space-between;
     align-items: center;
   }
-`
+`;
 
 export const FooterLeft = styled.div`
   padding-top: 15px;
@@ -33,7 +33,7 @@ export const FooterLeft = styled.div`
       margin-right: 15px;
     }
   }
-`
+`;
 
 export const FooterRight = styled.ul`
   display: flex;
@@ -49,7 +49,7 @@ export const FooterRight = styled.ul`
       width: 50px;
       height: 45px;
 
-      background-image: url(${require("@/assets/img/sprite_footer_02.png")});
+      background-image: url(${sprite_footer_02});
       background-size: 110px 450px;
     }
 
@@ -71,7 +71,7 @@ export const FooterRight = styled.ul`
       display: block;
       width: 52px;
       height: 10px;
-      background-image: url(${require("@/assets/img/sprite_footer_01.png")});
+      background-image: url(${require('@/assets/img/sprite_footer_01.png')});
       background-size: 180px 100px;
     }
 
@@ -92,4 +92,4 @@ export const FooterRight = styled.ul`
       margin-top: 6px;
     }
   }
-`
+`;
