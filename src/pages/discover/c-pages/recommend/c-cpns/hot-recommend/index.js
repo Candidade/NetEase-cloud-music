@@ -17,7 +17,6 @@ export default memo(function CDHotRecommend() {
     shallowEqual
   );
   const dispatch = useDispatch();
-
   useEffect(() => {
     dispatch(getHotRecommendAction(8));
   }, [dispatch]);

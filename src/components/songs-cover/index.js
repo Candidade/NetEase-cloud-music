@@ -19,7 +19,8 @@ export default memo(function CDSongsCover(props) {
       </div>
       <div className="cover-bottom text-nowrap">{info.name}</div>
       <div className="cover-source">
-        by {info.copywriter || info.creator.nickname}
+        {/* by {info.copywriter || info.creator.nickname} */}
+        by {info.copywriter || info.name}
       </div>
     </SongsCoverWrapper>
   );
